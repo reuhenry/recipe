@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+.nutrients  {
+    display:flex;
+    margin-left:25px;
+}
+.nutrients p  {
+    flex:1; 
+}
+.recipe  {
+    background-color: hsl(0, 0%, 100%);
+    margin:70px;
+    padding:50px;
+    border-radius:30px;
+}
+body  {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(30, 54%, 90%);
+}
+.omelette-image  {
+    width:100%;
+    border-radius:20px;
+}
+.preparation  {
+    color: hsl(332, 51%, 32%);
+    font-family: 'Outfit', sans-serif;
+}
+.ingredients  { 
+    color:  hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+}
+.instructions  {
+     color: hsl(14, 45%, 36%);
+     font-family: 'Young Serif', serif;
+}
+.nutrition  {
+    color:  hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+}
+.grams  {
+     color:hsl(14, 45%, 36%);
+     font-family: 'Young Serif', serif;
+
+}
+.omelette  {
+    font-family: 'Young Serif', serif;
+    font-weight: 600; 
+}
+@media screen and (max-width:375px) {
+    .recipe  {
+        margin: 0;
+        padding:20px;
+    }
+    body  {
+        background-color:hsl(0, 0%, 100%) ;
+   }
+   .omelette-image  {
+    border-radius: 0;
+   }
+}
